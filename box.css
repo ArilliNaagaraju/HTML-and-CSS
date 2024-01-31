@@ -1,0 +1,26 @@
+
+#outer-box{
+    width:800px;
+    height:500px;
+    background-color:rgb(88, 189, 109);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+}
+#box1{
+    background-color: rgb(242, 6, 6);
+}
+#box2{
+    background-color:rgb(206, 232, 11);
+}
+#box3{
+    background-color: rgb(16, 30, 224);
+}
+#box4{
+    background-color: rgb(168, 7, 243);
+}

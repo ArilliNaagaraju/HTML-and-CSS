@@ -1,0 +1,35 @@
+body,h1,h2,p{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.maindiv{
+   
+    background-color:rgb(111, 137, 141);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#logo{
+    font-size: 50px;
+    color: #0b66ff;
+    padding:10px 0px;
+}
+.sig-up{
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    
+}
+.form-head{
+    text-align: center;
+    padding: 10px;
+}
+.name1{
+    padding: 15px;
+}
+.gmail{
+    width: 100%;
+}

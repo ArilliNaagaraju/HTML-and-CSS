@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazion</title>
+    <link rel="stylesheet" href="amazion.css"/>
+    <style>
+        #outer {
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(88, 189, 109);
+            display: flex;
+            flex-direction: column;
+        }
+
+        #box1 {
+            width: 100%;
+            height: 10%;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        #box2 {
+            width: 100%;
+            height: 8%;
+            background-color: rgba(11, 4, 49, 0.718);
+        }
+
+        h4 {
+            color: rgb(240, 239, 243);
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="box1">
+            <h4>amazion.in</h4>
+            <h4>Update location<sub>delivering coimbatore 641014</sub></h4>
+            <input list="amazion">
+            <datalist id="amazion">
+                <option>books</option>
+                <option>footwear</option>
+                <option>watches</option>
+                <option>bags</option>
+                <option>clothing</option>
+            </datalist>
+        </div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+    </div>
+</body>
+</html>

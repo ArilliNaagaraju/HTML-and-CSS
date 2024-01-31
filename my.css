@@ -1,0 +1,22 @@
+body{
+    background:url(60474002.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.wrappe h1{
+    font-size:36px;
+    text-align:top;
+
+}
+.Name{
+    text-align: center;
+
+}
+.myself h1{
+    text-align: justify;
+}
