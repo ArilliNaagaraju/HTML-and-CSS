@@ -1,0 +1,38 @@
+#facebook{
+    color: rgb(34, 9, 224);
+    font-size:50px;
+    
+}
+#table{
+    border-radius: 10px;
+   
+
+}
+body{
+    background-image:url("1.jpg") ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#create,#create1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#sing-up{
+     background-color: rgb(43, 255, 0);
+     width:100% ;
+     border-radius: 5%;
+     border-color: blue;
+}
+#submet{
+    background-color: rgb(46, 114, 174);
+    width: 100%;
+    border-radius: 5%;
+     border-color: rgb(67, 233, 11);
+}
+input{
+    background-color: transparent;
+}
